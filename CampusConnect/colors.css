@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container {
+ height: 90vh;
+ background-size: cover;
+}
+.sectionhomePage {
+ text-align: center;
+ background-size: cover;
+ height: 100vh;
+ width: 100vw;
+}
+.button {
+ padding: 5px;
+ margin: 10px;
+ border-radius: 10px;
+ width: 150px;
+ font-family: "Sans-Serif";
+ font-weight: bold;
+ background-color: skyblue;
+ border-width: 0px;
+}
+.homePageHeading {
+ padding: 5px;
+ color: #d11d1d;
+ font-family: "Sans-Serif";
+ font-weight: bold;
+}
+.homePage-description {
+ color: black;
+ font-weight: bold;
+}
+.terms-conditions-bg-container {
+ background-image: url("https://img.freepik.com/free-photo/dark-wall-emptyroom-with-plants-floor-3d-rendering_41470-3847.jpg?size=626&ext=jpg&uid=R82683572&ga=GA1.2.16272325.1658051181&semt=sph");
+ height: 200vh;
+ background-size: cover;
+ padding: 550px;
+ margin-left: 25px;
+}
+.terms-conditions-card-container {
+ background-color: grey;
+ text-align: center;
+ border-radius: 10px;
+ padding: 40px;
+ height: 90vh;
+ width: 40vw;
+}
+.terms-conditions-heading {
+ margin: 10px;
+ color: #ffffff;
+ font-family: "Roboto";
+ font-weight: bold;
+}
+.terms-conditions-description {
+ padding: 10px;
+ text-align: left;
+ color: #ffffff;
+}
+.para {
+ text-align: left;
+ color: #ffffff;
+}
+.btn {
+ height: 40px;
+ width: 100px;
+}
+.login-page-bg-container {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-college-entrance-examination-countdown-banner-image_168653.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0px 0px 10%;
+}
+.explore-menu-section {
+ background-color: white;
+}
+.menu-section-heading {
+ color: #183b56;
+ font-family: "Sans-Serif";
+ font-size: 28px;
+ font-weight: 700;
+}
+
+.menu-card-title {
+ color: #323f4b;
+ font-family: "Roboto";
+ font-size: 18px;
+ font-weight: 500;
+ margin-top: 24px;
+}
+.menu-item-link {
+ color: #d0b200;
+ font-family: "Roboto";
+ font-size: 14px;
+ font-weight: 500;
+}
+.menu-item-card {
+ border-radius: 16px;
+}
+.name {
+ font-family: "Sans-Serif";
+ font-weight: bold;
+}
+.tourism-card {
+ text-align: center;
+ background-color: white;
+ border-top-left-radius: 25px;
+ border-top-right-radius: 25px;
+ padding: 5px;
+}
+.form-heading {
+ text-align: center;
+ font-family: "Roboto";
+ font-size: 30px;
+ padding-top: 40px;
+ padding-bottom: 20px;
+ font-weight: bold;
+}
+.error-message {
+ color: #dc3545;
+ font-family: "Roboto";
+ font-size: 14px;
+}
+.gender-field-heading {
+ color: #212529;
+ font-size: 18px;
+ margin-bottom: 10px;
+}
+.btn-secondary {
+ background-color: orange;
+ border-width: 0px;
+}
+.container {
+ height: 80vh;
+}
+.bg-container-login {
+ padding: 200px;
+}
+.card-container-login {
+ background-color: white;
+ border-radius: 20px;
+ height: 380px;
+ width: 320px;
+ padding: 15px;
+}
+.form-heading1 {
+ font-family: "Roboto";
+ /* font-size: 36px; */
+}
+.error-message1 {
+ color: #dc3545;
+ font-family: "Roboto";
+ font-size: 14px;
+}
+.gender-field-heading1 {
+ color: #212529;
+ font-size: 18px;
+ margin-bottom: 10px;
+}
+.mobile-number {
+ font-family: "roboto";
+}
+.bg-container-menu-page {
+ background-color: #ffffff;
+ background-size: cover;
+}
+.btn-secondary1 {
+ background-color: orange;
+ border-width: 0px;
+}
+#sectionTermsconditions{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-photo/dark-wall-emptyroom-with-plants-floor-3d-rendering_41470-3847.jpg?size=626&ext=jpg&uid=R82683572&ga=GA1.2.16272325.1658051181&semt=sph");
+    height: 80vh;
+    margin: 5% 0px 0px 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+/* .terms-conditions-container{
+    width: 30%;
+    background-color: grey;
+} */
+
+.term_condition_wrap{
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+    height: 70vh;
+    width: 45vw;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .buttons-container{
+    width: 100%;
+    display:  inline-block;
+  }
+  .login{
+    display: inline-block;
+    float: left;
+  }
+  .register{
+    display: inline-block;
+    float: right;
+  }
+
+  #sectionRegistrationPage{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    margin: 5% 25% 0px 35%;
+    border-radius: 5px;
+    box-shadow: 6px 4px 6px #00000054;
+  }
+
+  .form-container{
+    width: 80%;
+  }
+
+  .reg-button{
+    padding: 10px;
+    margin-left: -5px;
+  }
+
+  .menu-item-image {
+    border-radius: 16px;
+    width: 250px;
+     height: 250px;
+   }
+
+   .inlineDiv{
+      display: inline-block;
+      padding: 10px;
+   }
+
+   .sectionMenuPage{
+      text-align: center;
+   }
+   .participantContainer{
+    width: 40%;
+    border: 1px solid #cfe2f2;
+    margin: auto;
+}
+.participantContainer div{
+    padding: 5px;
+    margin: 5px;
+    background: azure;
+}
+.participantLable{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: serif;
+}
+.participantButton{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+

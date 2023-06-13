@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="colors.css">
+  <script src="C:\prabi\editedprojectcode_js\events_project_js.js"></script>
+
+</head>
+
+<body>
+    <div class="container" id="sectionRegistrationPage">
+        
+        <div class="form-container participantContainer" style="width: 90%;">
+            <div><h1 class="form-heading1">Add User</h1></div>
+            <form id="myRegisterForm">
+                <div class="mb-3">
+                    <label for="name" class="participantLable">User Name</label>
+                    <input type="text" class="form-control" id="name" />
+                    <p id="nameErrMsg" class="error-message1"></p>
+                </div>
+                <div class="mb-3">
+                    <label for="Password1" class="participantLable">Password</label>
+                    <input type="password" class="form-control" id="Password1" />
+                    <p id="password1ErrMsg" class="error-message1"></p>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="participantLable">Email</label>
+                    <input type="text" class="form-control" id="email" />
+                    <p id="emailErrMsg" class="error-message1"></p>
+                </div>
+                <div class="mb-3">
+                    <label for="status" class="participantLable">Branch</label>
+                    <select id="status" class="form-control">
+                        <option value="CSE">CSE</option>
+                        <option value="IT">IT</option>
+                        <option value="ECE">ECE</option>
+                        <option value="AIML">AIML</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <!-- <h1 class="gender-field-heading1">Year</h1>
+                    <input type="radio" name="Year" id="firstyear" value="Male" checked />
+                    <label for="firstyear">first</label>
+                    <input type="radio" name="Year" id="secondyear" value="Female" class="ml-2" />
+                    <label for="secondyear">second</label>
+                    <input type="radio" name="Year" id="thirdyear" value="Female" class="ml-2" />
+                    <label for="thirdyear">third</label>
+                    <input type="radio" name="Year" id="fourthyear" value="Female" class="ml-2" />
+                    <label for="fourthyear">fourth</label> -->
+                    <label for="year" class="participantLable">Year</label>
+                    <select id="year" class="form-control">
+                        <option value="1">1st Year</option>
+                        <option value="2">2nd Year</option>
+                        <option value="3">3rd Year</option>
+                        <option value="4">4th Year</option>
+                    </select>
+                </div>
+    
+                <div class="reg-button">
+                    <a href="C:\prabi\editedprojectcode\demo web\signup and login.html" id="start">
+                    <button class="btn btn-primary" onclick="register()" class="participantButton">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
